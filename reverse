@@ -1,0 +1,4 @@
+//reverse string in python
+
+txt = "Hello World"[::-1]
+print(txt)
