@@ -37,3 +37,11 @@ if is_palindrome:
     print("Yes") 
 else:
     print("No") 
+
+//print the sqrt of given number using python
+
+import numpy as np
+import math
+sr = np.sqrt(10)
+print(math.floor(sr))
+
