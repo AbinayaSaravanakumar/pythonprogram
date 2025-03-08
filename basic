@@ -45,3 +45,21 @@ import math
 sr = np.sqrt(10)
 print(math.floor(sr))
 
+//anagram or not in python
+s1 = "listen"
+s2 = "silent"
+
+if len(s1) != len(s2):   
+    print("No")
+else:
+    count = [0] * 26  
+
+    for i in range(len(s1)):# increment for s1
+        count[ord(s2[i]) - ord('a')] -= 1   
+        count[ord(s1[i]) - ord('a')] += 1  
+
+    if all(x == 0 for x in count):   
+        print("Yes")
+    else:
+        print("No")
+
