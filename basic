@@ -73,29 +73,17 @@ elif (year % 4 ==0) and (year % 100 != 0):
 else:
     print("{0} is not a leap year".format(year))
 
-
-
-
-
 //python is a backend programming language
-
 //one more line added
-
 //python program
-
-
 //tamilnadu
 //one
-
 //frontend programming language
 //change one more line
-
-
 //string function
-
-//tamil
 //ceil and floor
 //code changed byadd one line
- //today task
+//today task
+
 
 
