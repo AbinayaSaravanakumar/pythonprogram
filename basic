@@ -38,6 +38,21 @@ if is_palindrome:
 else:
     print("No") 
 
+
+//check anagram or not
+from collections import Counter  
+
+s1 = "listen"
+s2 = "silent"
+
+if len(s1) != len(s2):  
+    print("No")
+else:
+    if Counter(s1) == Counter(s2):  
+        print("Yes")
+    else:
+        print("No")
+
 //print the sqrt of given number using python
 
 import numpy as np
@@ -80,8 +95,9 @@ else:
 
 //tamil
 //ceil and floor
+//march 14
 //code changed byadd one line
  //today task
-
+//march 14 content added
 
 
